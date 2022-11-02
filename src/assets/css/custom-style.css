@@ -1,0 +1,356 @@
+*{ outline:none;}
+*{ box-shadow:none;}
+.required{ margin-left:3px; color:#e50019;}
+.form-control:focus{ box-shadow:none;}
+.form-control{padding: .375rem .35rem .375rem .35rem;}
+.btn.focus, .btn:focus, button:focus, button.focus{ box-shadow:none;}
+:hover{transition: all 0.5s ease;}
+a{transition: all 0.5s ease;}
+.med-bag{ margin-top:-7px; border:none;}
+.container { max-width: 1400px;}
+section{ -webkit-box-orient: horizontal; -webkit-box-direction: normal;-ms-flex-flow: row nowrap; flex-flow: row nowrap; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start;}
+section.filters{ background:#177246; padding:15px 0;}
+section.filters label{ color:#fff;}
+.font-0{ font-size:0;}
+.hr{ width:100%; float:left;}
+.row{margin-right: -10px; margin-left: -10px;}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto{padding-right: 10px;padding-left: 10px; }
+/*Buttons*/
+.btn-green{ background:#6ab130; color:#fff;}
+/*Margins*/
+.mt-31{margin-top: 31px;}
+/*Colors*/
+.color-white{ color:#fff;}
+.color-grey{ color:#464749;}
+.color-green{ color:#0c8944;}
+.color-red{ color:#e50019;}
+/*Backgrounds*/
+.bg-grey-l{ background:#aeb0b3;}
+.bg-green-l{ background:#dbeaca;}
+/*Login*/
+body.login {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #dbeaca;
+    background-repeat: no-repeat
+}
+.login .custom-control-label::after{ display:none;}
+.login .form-check-input{float: left; width: 20px;  margin-top: 5px;}
+.login-fome{ max-width:480px; width:100%; margin:0 auto;}
+.checkme{ float:left;}
+.login .navbar-nav .nav-link{ float:right;}
+.checkme label{ color:#818386 !important;}
+.login label{ font-size:14px;}
+.login2 {
+    color: #000;
+    overflow-x: hidden;
+    height: 100vh;
+    background-color: #dbeaca;
+    background-repeat: no-repeat
+}
+.login .forgot-pd {
+   float:right; color:#e50019; font-size: 14px;
+}
+.login .forgot-pd:hover {
+    text-decoration:underline; 
+}
+.login .dropdown-toggle::after {
+    float: left;
+    margin: 10px 6px 0 0;
+}
+.login .card {
+   background:#fefefe;
+}
+.login2 .card {
+   background:none;
+}
+.login .card0 {
+    box-shadow: 0px 4px 8px 0px #757575;
+    border-radius: 0px
+}
+.login2 .card0 {
+    box-shadow:none;
+    border-radius: 0px
+}
+.login .card2 {
+    margin: 0px 40px
+}
+
+.login .login-logo {
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 35px
+}
+
+.login .image {
+    width: 360px;
+    height: 280px
+}
+.login .line {
+    height: 1px;
+    width: 45%;
+    background-color: #E0E0E0;
+    margin-top: 10px
+}
+
+.login .or {
+    width: 10%;
+    font-weight: bold
+}
+
+.login .text-sm {
+    font-size: 14px !important
+}
+
+.login ::placeholder {
+    color: #BDBDBD;
+    opacity: 1;
+    font-weight: 300
+}
+
+.login :-ms-input-placeholder {
+    color: #BDBDBD;
+    font-weight: 300
+}
+
+.login ::-ms-input-placeholder {
+    color: #BDBDBD;
+    font-weight: 300
+}
+
+.login input,
+.login textarea {
+    padding: 10px 12px 10px 12px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #2C3E50;
+    font-size: 14px;
+    letter-spacing: 1px
+}
+
+.login input:focus,
+.login textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #304FFE;
+    outline-width: 0
+}
+
+.login button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+.login a {
+    color: inherit;
+    cursor: pointer; color:#0c8944;
+}
+.login h4 { color:#0c8944;}
+.login label { color:#0c8944;}
+.login .btn-blue {
+    /*background-color: #1A237E;
+    width: 150px;*/
+    color: #fff;
+    border-radius: 2px
+}
+
+.login .btn-blue:hover {
+    background-color: #000;
+    cursor: pointer
+}
+
+.login .bg-blue {
+    color: #fff;
+    background-color: #1A237E
+}
+.login .danger{
+    color: #e50019;
+}
+@media screen and (max-width: 991px) {
+    .login .logo {
+        margin-left: 0px
+    }
+
+   .login  .image {
+        width: 300px;
+        height: 220px
+    }
+
+    .login .border-line {
+        border-right: none
+    }
+
+    .login .card2 {
+        border-top: 1px solid #EEEEEE !important;
+        margin: 0px 15px
+    }
+}
+.content-panel{ width:100%; float:left;border:1px solid #9ec2b1; border-top:2px solid #177246; padding:0;}
+.content-panel .header{ width:100%; float:left; background:#6ab130; height:40px; line-height:40px; padding:0 15px; margin-bottom:20px;}
+.searrch-filters{ width:100%; margin:0 0 20px 0; padding:0 10px;}
+.searrch-filters label{ color:#0c8944; font-size:12px; line-height: 30px; margin:0;}
+.sm-col { padding-left:5px !important; padding-right:5px !important;}
+.sm-row{ margin-left:-5px !important; margin-right:-5px !important;}
+.list-col{ height:80vh;}
+.list-label{ background:#f1fee4; text-align:center; color:#0c8944; padding:0; line-height:40px; height:40px; width:100%; float:left;}
+.list-number{ background:#dbeaca; text-align:center; color:#e50019; padding:0; line-height:40px; height:40px; width:100%; float:left;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
